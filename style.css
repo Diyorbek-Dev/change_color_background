@@ -8,13 +8,33 @@ button{
     height: 40px;
     margin-left: 46%;
     margin-top:22%;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(12, 143, 219);
+    color: white;
     background-color: violet;
     outline: none;
 }
 button:hover{
     background-color: black;
+}
+@media screen and (max-width:768px){
+    button{
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width:425px){
+    button{
+        margin-left: 160px;
+    }
+
+}
+@media screen and (max-width:375px){
+    button{
+        margin-left: 140px;
+    }
+}
+@media screen and (max-width:320px){
+    button{
+        margin-left: 110px;
+    }
 }
